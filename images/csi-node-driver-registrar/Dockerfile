@@ -1,1 +1,1 @@
-FROM registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.8.0
+FROM  --platform=linux/arm64 registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.8.0

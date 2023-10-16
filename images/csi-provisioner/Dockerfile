@@ -1,1 +1,1 @@
-FROM registry.k8s.io/sig-storage/csi-provisioner:v3.5.0
+FROM --platform=linux/arm64 registry.k8s.io/sig-storage/csi-provisioner:v3.5.0
